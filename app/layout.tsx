@@ -3,6 +3,9 @@ import { defaultMeta, viewport } from '@/utils/meta';
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
 
+import '@react95/core/GlobalStyle';
+import '@react95/core/themes/win95.css';
+
 const geistSans = Geist({
   variable: '--font-geist-sans',
   subsets: ['latin'],

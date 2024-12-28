@@ -217,6 +217,11 @@
   resolved "https://registry.yarnpkg.com/@img/sharp-win32-x64/-/sharp-win32-x64-0.33.5.tgz#56f00962ff0c4e0eb93d34a047d29fa995e3e342"
   integrity sha512-MpY/o8/8kj+EcnxwvrP4aTJSWw/aZ7JIGR4aBeZkZw5B7/Jn+tY9/VNwtcoGmdT7GfggGIU4kygOMSbYnOrAbg==
 
+"@neodrag/react@^2.0.4":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@neodrag/react/-/react-2.2.0.tgz#67cf885dbf31f80afb0879dc3d83fab8785560b6"
+  integrity sha512-CiNhaXY03s6EUKUGazeLs25gUGHRKv6Orw8LMeYGh8As7pXWmr9RSTKe7eBtFQz19cSXM1hOswjRXg6yBUuHeg==
+
 "@next/env@15.1.2":
   version "15.1.2"
   resolved "https://registry.yarnpkg.com/@next/env/-/env-15.1.2.tgz#fa36e47bbaa33b9ecac228aa786bb05bbc15351c"
@@ -384,6 +389,25 @@
     "@parcel/watcher-win32-ia32" "2.5.0"
     "@parcel/watcher-win32-x64" "2.5.0"
 
+"@react95/core@^9.2.1":
+  version "9.2.1"
+  resolved "https://registry.yarnpkg.com/@react95/core/-/core-9.2.1.tgz#440048d26d83b11dc4b5b9247144943b56daf6f2"
+  integrity sha512-n0Vvp4xLrRDW9v6ErTmyFdnX0a8JOgROLosPsKUrQ2FOasuuIDdoUCapn3857Gmq5coMGZ1czhHJQmmuiP508g==
+  dependencies:
+    "@neodrag/react" "^2.0.4"
+    "@react95/icons" "^2.1.1"
+    "@vanilla-extract/dynamic" "^2.1.0"
+    "@vanilla-extract/recipes" "^0.5.1"
+    classnames "^2.5.1"
+    nanoid "^3.3.1"
+    rainbow-sprinkles "^0.17.1"
+    usehooks-ts "^3.1.0"
+
+"@react95/icons@^2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@react95/icons/-/icons-2.1.1.tgz#54ba7f45285ea437f146b365312799be21c0f1d8"
+  integrity sha512-yWwnaHHFXZ81aN9HuLtOOOGZf4I54CtD0dufnmF07eWax6zQfP9qgnbZZMO2LdSWs4eufnmiWJc5ae/hG8VvzA==
+
 "@reduxjs/toolkit@^2.5.0":
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/@reduxjs/toolkit/-/toolkit-2.5.0.tgz#4679b09b4da211cb9a821803aabf86a13c96fbfa"
@@ -535,6 +559,23 @@
   dependencies:
     "@typescript-eslint/types" "8.18.2"
     eslint-visitor-keys "^4.2.0"
+
+"@vanilla-extract/dynamic@^2.1.0":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@vanilla-extract/dynamic/-/dynamic-2.1.2.tgz#b1d1c1e0e392934c5a3bbb53f99069a7721311ac"
+  integrity sha512-9BGMciD8rO1hdSPIAh1ntsG4LPD3IYKhywR7VOmmz9OO4Lx1hlwkSg3E6X07ujFx7YuBfx0GDQnApG9ESHvB2A==
+  dependencies:
+    "@vanilla-extract/private" "^1.0.6"
+
+"@vanilla-extract/private@^1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@vanilla-extract/private/-/private-1.0.6.tgz#f10bbf3189f7b827d0bd7f804a6219dd03ddbdd4"
+  integrity sha512-ytsG/JLweEjw7DBuZ/0JCN4WAQgM9erfSTdS1NQY778hFQSZ6cfCDEZZ0sgVm4k54uNz6ImKB33AYvSR//fjxw==
+
+"@vanilla-extract/recipes@^0.5.1":
+  version "0.5.5"
+  resolved "https://registry.yarnpkg.com/@vanilla-extract/recipes/-/recipes-0.5.5.tgz#da34e247be2c3d70e01ecfeb53310daadc608b74"
+  integrity sha512-VadU7+IFUwLNLMgks29AHav/K5h7DOEfTU91RItn5vwdPfzduodNg317YbgWCcpm7FSXkuR3B3X8ZOi95UOozA==
 
 accept-language@^3.0.20:
   version "3.0.20"
@@ -779,6 +820,11 @@ chokidar@^4.0.0:
   integrity sha512-Qgzu8kfBvo+cA4962jnP1KkS6Dop5NS6g7R5LFYJr4b8Ub94PPQXUksCw9PvXoeXPRRddRNC5C1JQUR2SMGtnA==
   dependencies:
     readdirp "^4.0.1"
+
+classnames@^2.5.1:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.5.1.tgz#ba774c614be0f016da105c858e7159eae8e7687b"
+  integrity sha512-saHYOzhIQs6wy2sVxTM6bUDsQO4F50V9RQ22qBpEdCW+I+/Wmke2HOl6lS6dTpdxVhb88/I6+Hs+438c3lfUow==
 
 client-only@0.0.1:
   version "0.0.1"
@@ -1839,6 +1885,11 @@ locate-path@^6.0.0:
   dependencies:
     p-locate "^5.0.0"
 
+lodash.debounce@^4.0.8:
+  version "4.0.8"
+  resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
+  integrity sha512-FT1yDzDYEoYWhnSGnpE/4Kj1fLZkDFyqRb7fNt6FdYOSxlUWAtp42Eh6Wb0rGIv/m9Bgo7x4GhQbm5Ys4SG5ow==
+
 lodash.merge@^4.6.2:
   version "4.6.2"
   resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.2.tgz#558aa53b43b661e1925a0afdfa36a9a1085fe57a"
@@ -1893,7 +1944,7 @@ ms@^2.1.1, ms@^2.1.3:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.3.tgz#574c8138ce1d2b5861f0b44579dbadd60c6615b2"
   integrity sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==
 
-nanoid@^3.3.6:
+nanoid@^3.3.1, nanoid@^3.3.6:
   version "3.3.8"
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.8.tgz#b1be3030bee36aaff18bacb375e5cce521684baf"
   integrity sha512-WNLf5Sd8oZxOm+TzppcYk8gVOgP+l58xNy58D0nbUnOxOWRWvlcCV4kUF7ltmI6PsrLl/BgKEyS4mqsGChFN0w==
@@ -2091,6 +2142,11 @@ queue-microtask@^1.2.2:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/queue-microtask/-/queue-microtask-1.2.3.tgz#4929228bbc724dfac43e0efb058caf7b6cfb6243"
   integrity sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==
+
+rainbow-sprinkles@^0.17.1:
+  version "0.17.3"
+  resolved "https://registry.yarnpkg.com/rainbow-sprinkles/-/rainbow-sprinkles-0.17.3.tgz#0b4a712a6b06247728e2ae6ac8d4805fdc530e3b"
+  integrity sha512-tu00bbDozceDz/ajL8YzDn5L0mf0uVHR93v2tfGKKbemKeuPk8R4mXUokleKsA24vzrPiw26iMK53HdRy6HLag==
 
 react-dom@^19.0.0:
   version "19.0.0"
@@ -2597,6 +2653,13 @@ use-sync-external-store@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/use-sync-external-store/-/use-sync-external-store-1.4.0.tgz#adbc795d8eeb47029963016cefdf89dc799fcebc"
   integrity sha512-9WXSPC5fMv61vaupRkCKCxsPxBocVnwakBEkMIHHpkTTg6icbJtg6jzgtLDm4bl3cSHAca52rYWih0k4K3PfHw==
+
+usehooks-ts@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/usehooks-ts/-/usehooks-ts-3.1.0.tgz#156119f36efc85f1b1952616c02580f140950eca"
+  integrity sha512-bBIa7yUyPhE1BCc0GmR96VU/15l/9gP1Ch5mYdLcFBaFGQsdmXkvjV0TtOqW1yUd6VjIwDunm+flSciCQXujiw==
+  dependencies:
+    lodash.debounce "^4.0.8"
 
 void-elements@3.1.0:
   version "3.1.0"
